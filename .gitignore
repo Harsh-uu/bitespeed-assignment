@@ -5,3 +5,4 @@ node_modules
 checklist.md
 
 /src/generated/prisma
+/dist
