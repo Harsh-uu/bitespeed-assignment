@@ -129,32 +129,6 @@ src/
     └── prisma.ts               # Prisma client singleton
 ```
 
-## Local Setup
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/Harsh-uu/bitespeed-assignment.git
-cd bitespeed-assignment
-
-# 2. Install dependencies
-npm install
-
-# 3. Set up environment
-cp .env.example .env
-# Edit .env and set DATABASE_URL to your PostgreSQL connection string
-
-# 4. Run migrations
-npx prisma migrate deploy
-
-# 5. Generate Prisma client
-npx prisma generate
-
-# 6. Start development server
-npm run dev
-```
-
-The server starts on `http://localhost:3000`.
-
 ## Deployed Endpoint
 
 `https://identity-reconciliation-vrgl.onrender.com/identify`
