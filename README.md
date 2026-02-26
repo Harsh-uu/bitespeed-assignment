@@ -4,7 +4,7 @@ A backend service that identifies and consolidates customer contact information 
 
 ## Problem Statement
 
-FliteManager receives customer orders with `email` and/or `phoneNumber`. The same person may use different contact details across orders. This service links all contact information belonging to the same person into a single identity group, ensuring:
+FluxKart receives customer orders with `email` and/or `phoneNumber`. The same person may use different contact details across orders. This service links all contact information belonging to the same person into a single identity group, ensuring:
 
 - The **oldest** contact is always the **primary**
 - All others are **secondary**, linked to the primary
