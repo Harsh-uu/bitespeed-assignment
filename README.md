@@ -1,6 +1,6 @@
 # Bitespeed Identity Reconciliation Service
 
-A backend service that identifies and consolidates customer contact information across multiple requests. Built for the [Bitespeed Backend Task](https://bitespeed.notion.site/Bitespeed-Backend-Task-Identity-Reconciliation-53392ab16fe546b893f4e0a720afda56).
+A backend service that identifies and consolidates customer contact information across multiple requests. Built for the [Bitespeed Backend Task](https://drive.google.com/file/d/1h3xh2PKP8aQW85hDdn2qUkXDUUAVDKaP/view).
 
 ## Problem Statement
 
@@ -157,7 +157,7 @@ The server starts on `http://localhost:3000`.
 
 ## Deployed Endpoint
 
-> `https://identity-reconciliation-vrgl.onrender.com/identify`
+`https://identity-reconciliation-vrgl.onrender.com/identify`
 
 Test it:
 ```bash
